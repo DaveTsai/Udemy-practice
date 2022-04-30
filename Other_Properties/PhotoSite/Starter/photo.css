@@ -1,0 +1,28 @@
+/* CSS */
+nav {
+    font-weight: bold;
+    font-family: 'Tapestry', cursive;
+    font-size: 2em;
+}
+
+.Mass img {
+    display: inline-block;
+    width: auto;
+    height: 390px;
+    margin: 20px;
+}
+
+
+.Milo img {
+    display: inline-block;
+    width: auto;
+    height: 390px;
+    margin: 20px;
+}
+
+.Gor img {
+    display: inline-block;
+    width: auto;
+    height: 390px;
+    margin: 20px;
+}
