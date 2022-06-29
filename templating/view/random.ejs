@@ -1,0 +1,17 @@
+<%- include(`partial/header`) %>
+<title>Document</title>
+</head>
+<%- include (`partial/navbar.ejs`) %>
+
+<body>
+    <h1>My random number is <%=rand%>
+    </h1>
+    <%= rand%2===0 ? "This is an even number" :"This is a odd number." %>
+    <% if (rand%2===0){ %>
+    <h1>This is an even number</h1>
+    <% } else { %>
+    <h1>This is a odd number</h1>
+    <%}%>
+</body>
+
+</html>
